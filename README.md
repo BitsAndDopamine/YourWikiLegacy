@@ -1,7 +1,7 @@
 # My Wikipedia Book — Articles I've Edited
 
 Generates a printed collection of every article (across all languages) that
-a given Wikimedia user has edited over time. Only the first paragraph will is used.
+a given Wikimedia user has edited over time. Only the first paragraph is used.
 
 ## Workflow
 
