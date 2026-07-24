@@ -1,6 +1,6 @@
 # My Wikipedia Book — Articles I've Edited
 
-This is a small idea developped during Wikimania 2026.
+This is a small idea developped during Wikifringe / Wikimania 2026.
 
 The scripts in this repo generate a printed collection of every article (across all languages) that
 a given Wikimedia user has edited over time. Only the first paragraph is used, the result looks similar to a classic printed encyclopedia.
