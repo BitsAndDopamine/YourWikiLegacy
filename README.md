@@ -1,10 +1,7 @@
 # My Wikipedia Book — Articles I've Edited
 
 Generates a printed collection of every article (across all languages) that
-a given Wikimedia user has edited over time. Based on the same principle as
-the "Vikipedio — Unu Libro" project (SQLite → LaTeX/XeLaTeX), but without
-any Esperanto-specific logic: sorting is language-neutral (diacritic-free
-comparison), and each wiki is auto-discovered rather than hard-coded.
+a given Wikimedia user has edited over time.
 
 ## Workflow
 
