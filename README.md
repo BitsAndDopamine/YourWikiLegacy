@@ -56,7 +56,7 @@ Table `articles`, unique key `(wiki_lang, wiki_project, title)`:
 | `first_edited_at` / `last_edited_at` | Timestamps of your own edits |
 | `comment` | `duplicate` if a redirect led to an article already present |
 
-As in the original project, `text_edited` can be filled in manually (it's
+`text_edited` can be filled in manually (it's
 never truncated automatically), and `extra_latex` still supports
 `\entryimage{}{}` and `\begin{infobox}{}...\end{infobox}`.
 
@@ -76,16 +76,14 @@ title.
 
 ## Layout
 
-Three-column A4 layout (`\begin{multicols}{3}`), 7pt body text — following
-the same approach as the original Esperanto encyclopedia project, since a
+Three-column A4 layout (`\begin{multicols}{3}`), 7pt body text, since a
 three-column layout needs a smaller font size than two columns to keep
 line lengths readable.
 
 ## Known limitations
 
 - Sorting is a pragmatic, language-neutral compromise (see above) — not a
-  linguistically correct per-language collation like the original project
-  used for Esperanto.
+  linguistically correct per-language collation.
 - Very active accounts with tens of thousands of edits will generate a
   correspondingly large number of API requests; consider restricting
   `--wikis` or letting it run overnight.
